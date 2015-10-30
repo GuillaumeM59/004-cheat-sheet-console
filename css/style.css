@@ -1,0 +1,78 @@
+/* generic website style*/
+body {
+  background-color: #E5B696;
+  }
+h2 {
+  text-align: center;
+  color: #BF987D;
+  }
+p, ul {
+  list-style: none;
+  font-family: "Dancing Script", cursive;
+  }
+header {
+  text-align: center;
+  background-color: #7F6553;
+  font-family: cursive;
+  display: inline-block;
+  width: 94%;
+  border-radius: 15px;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-bottom: 5px;
+  }
+/*mise en forme et placement à droite du menu*/
+#menu {
+  position: fixed;
+  right: 0;
+  top: 50%;
+  width: 8em;
+  font-size: 1.2em;
+  margin-top: -2.5em;
+  background-color: #7F6553;
+  border: 2px solid black;
+  border-radius: 20px 0 0 20px;
+  border-right: none;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  }
+a {
+  text-decoration: none;
+  color: #FFCAA7;
+  }
+/*delay on each two blocs*/
+.blocpair {
+  position: relative;
+  left: 33%;
+  }
+/*mise en forme des blocs*/
+section {
+ width: 50%;
+ background-color: #40332A;
+ border-radius: 10px;
+ padding-top: 2px;
+ padding-bottom: 2px;
+ margin-top: 1px;
+ position:relative;
+ left: 13%;
+ text-align: justify;
+  }
+section ul {
+  list-style: none;
+  padding-left: 2%;
+  padding-right: 2%;
+  font-size: 1.2em;
+  color: #FFCAA7;
+  line-height: 1.5;
+  }
+/*mise en forme des caractères à taper*/
+section span {
+  font-family: Arial;
+  background-color: black;
+  color: white;
+  border: 1px solid grey;
+  border-radius: 5px 5px 0 0;
+  margin-right: 2px;
+  padding-left: 2px;
+  padding-right: 2px;
+  }

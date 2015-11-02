@@ -16,64 +16,53 @@
     </header>
     <nav>
       <ul id="menu">
-        <li> <a href="#premierspas">Premiers pas</a></li>
-        <li><a href="#letscommit">Commit</a></li>
-        <li><a href="#branches">Branches</a></li>
-        <li><a href="#transfert">Partages</a></li>
-        <li><a href="#brake">Pause</a></li>
+        <li> <a href="#general">Raccourcis généraux</a></li>
+        <li><a href="#terminal">Astuces terminal</a></li>
+        <li><a href="#navigation">Navigation</a></li>
       </ul>
     </nav>
     <article>
-      <section id="premierspas">
-        <h2>Premiers pas sur GIT</h2>
+      <section id="general">
+        <h2>Raccourcis généraux</h2>
         <ul>
-          <li>Remplacez toutes les <span>*</span> par <span>git</span> !</li>
-          <li><span>* init </span>  initialise git dans ton nouveau projet.</li>
-          <li><span>* status </span>  permet de voir les modifs non suivies et celles qui le sont deja.</li>
-          <li><span>* add  #fichier ou --all </span> ajoute le fichier au suivi, --all les ajoute tous.</li>
+          <li><span>Ctrl + A</span> tout sélectionner.</li>
+          <li><span>Ctrl + C</span> copier.</li>
+          <li><span>Ctrl + V</span> coller.</li>
+          <li><span>Ctrl + N</span> nouveau Document.</li>
+          <li><span>Ctrl + O</span> ouvrir.</li>
+          <li><span>Ctrl + S</span> sauvegarder.</li>
+          <li><span>Ctrl + P</span> imprimer.</li>
+          <li><span>Ctrl + W</span> fermer.</li>
+          <li><span>Ctrl + Q</span> quitte l’application.</li>
         </ul>
       </section>
-      <section id="letscommit" class="blocpair">
-        <h2>Let's commit!</h2>
+      <section id="terminal" class="blocpair">
+        <h2>Astuces terminal</h2>
         <ul>
-          <li>Remplacez toutes les <span>*</span> par <span>git</span> !</li>
-          <li><span >* commit -m "message" </span>  enregistre toutes les modifications (en vert dans statut) et lui associe un numero unique et un message de description.</li>
-          <li><span>* log </span>  voir l'historique des commits.</li>
-          <li><span>* diff </span> voir les changements depuis le dernier commit.</li>
-          <li><span>* checkout #  </span> revenir visuellement au commit #.</li>
-          <li><span>* checkout master </span> revenir au dernier commit ( apres checkout #).</li>
-          <li><span>* checkout #fichier </span>  revenir comme avant.</li>
-          <li><span>* revert # </span> annule le commit #.</li>
-          <li><span>* reset </span> retour definit d'un commit en arrière.</li>
-          <li><span>* reset HEAD ^^^...  </span>  retour definitif en arrière d'autant de commit que de ^.</li>
+          <li><span>Ctrl + Alt + T</span> nouveau Terminal.</li>
+          <li><span>Ctrl + A</span> aller en début de ligne.</li>
+          <li><span>Ctrl + E</span> aller en fin de ligne.</li>
+          <li><span>Ctrl + C</span> arrête le processus en cours.</li>
+          <li><span>Ctrl + R</span> trouve la dernière commande en fonction de la lettre tapée.</li>
+          <li><span>Une lettre, puis Tab + Tab</span> liste les différentes commandes disponible avec la lettre tapée.</li>
+          <li><span>Ctrl + U</span> supprime la ligne tapée.</li>
+          <li><span>Ctrl + K</span> supprime la ligne après le curseur.</li>
+          <li><span>Ctrl + W</span> supprime la ligne avant le curseur.</li>
+          <li><span>Ctrl + L</span> efface le terminal.</li>
+          <li><span>Shift + Ctrl + C</span> copier.</li>
+          <li><span>Shift + Ctrl + V</span> coller.</li>
         </ul>
       </section>
-      <section id="branches">
-        <h2> Parlons des branchesdebuug</h2>
+      <section id="navigation">
+        <h2> Navigation </h2>
         <ul>
-          <li>Remplacez toutes les <span>*</span> par <span>git</span> !</li>
-          <li><span>* branch </span>  voir dans quel branche on se trouve.</li>
-          <li><span>* branch #nom </span>  crée une branche nommée #nom.</li>
-          <li><span>* checkout #nom </span> aller sur la branche #nom.</li>
-          <li><span>* merge #branche </span> fusionne la branche où l'on est avec #branche.</li>
-        </ul>
-      </section>
-      <section id="transfert" class="blocpair">
-        <h2>Partageons!</h2>
-        <ul>
-          <li>Remplacez toutes les <span>*</span> par <span>git</span> !</li>
-          <li><span>* push #hôte #branche </span>   envoie la dernière version à l'hôte #hôte sur la #branche.</li>
-          <li><span>* pull #destination #branche </span>   recupère la dernière version et la met sur votre machine.</li>
-          <li><span>* clone #adresse </span> crée une copie du projet #adresse.</li>
-          <li><span>* blame #fichier </span> affiche les modifications concernant ce fichier.</li>
-        </ul>
-      </section>
-      <section id="brake">
-        <h2>Faisons une pause...</h2>
-        <ul>
-          <li>Remplacez toutes les <span>*</span> par <span>git</span> !</li>
-          <li><span>* stash </span>  met les dernière modifications en memoire tampon permettant de faire un commit n'ayant aucun rapport.</li>
-          <li><span>* stash pop </span>  revient exactement comme au moment du stash (en conservant les commit réalisé entre).</li>
+          <li><span>Alt+F4</span> ferme la fenêtre en cours.</li>
+          <li><span>Alt+Tab</span> changer de fenêtre.</li>
+          <li><span>Ctrl+Alt+Shift+Flèches</span> Déplace la fenêtre vers un espace de travail différent.</li>
+          <li><span>Ctrl+Alt+Flèches</span> basculer vers les autres espaces de travail.</li>
+          <li><span>Ctrl+Alt+Suppr</span> se déconnecter.</li>
+          <li><span>Ctrl+windows+D</span> Cache toutes les fenêtres et affiche le bureau. idem pour réafficher.</li>
+          <li><span>Ctrl+Alt+L</span> retour ecran d'identification.</li>
         </ul>
       </section>
     </article>
